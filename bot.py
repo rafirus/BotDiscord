@@ -22,4 +22,4 @@ class MyClient(discord.Client):
             current_time = datetime.datetime.now().strftime("%H:%M:%S")
             await message.channel.send (f'{message.author.name}, a hora atual é: {current_time}')
 client = MyClient(intents=intents)
-client.run('MTEyNDg3NTUwNjgzMjExNzg4MQ.GfCgEp._OpecCh7NiExWUnhvceQYcqUQlHwF3u6e-qvYE')
+client.run('token-bot')
